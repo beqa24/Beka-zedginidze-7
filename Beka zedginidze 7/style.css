@@ -1,0 +1,67 @@
+.kubi{
+  max-width: 500px;
+  width: 70px;
+  height: 70px;
+  border: solid 5px;
+  border-width: 5px;
+  margin-top: 230px;
+  margin-left: 150px;
+  padding-left: 20px;
+  background-color: blue;
+  border-radius: 50%;
+  color: brown;
+  position: relative;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.kubi:hover {
+  background-color: #ffcccc;
+  width: 100px;
+  height: 100px;
+  rotate: 180deg;
+}
+.rgoli{
+  max-width: 500px;
+  width: 70px;
+  height: 70px;
+  border: solid 5px;
+  border-width: 5px;
+  margin-top: 230px;
+  margin-left: 950px;
+  padding-left: 20px;
+  background-color: blue;
+  border-radius: 50%;
+  color: brown;
+  position: relative;
+}
+header{
+  display: inline-flex;
+  justify-content: center;
+  display: inline-block;
+  align-items: center;
+}
+.kubi {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-top: 50%;
+    margin-left: 70%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
